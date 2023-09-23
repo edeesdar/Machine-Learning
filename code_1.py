@@ -12,6 +12,5 @@ print(arr.shape)
 arr=arr.reshape(1,15)
 arr=np.arange(0,5)
 print(arr)
-
 df=pd.DataFrame(np.arange(0,20).reshape(5,4),[1,2,3,4,5],[1,2,3,4])
 print(df)
